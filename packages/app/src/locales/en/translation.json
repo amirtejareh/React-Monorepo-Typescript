@@ -1,0 +1,18 @@
+{
+  "routes": {
+    "home": "Home",
+
+    "categoty": {
+      "warehouse_management": {
+        "title": "Warehouse Management",
+        "menu_title": "Information",
+        "submenu": {
+          "first": "Page One",
+          "second": "Page Two",
+          "third": "Page Three"
+        }
+      }
+    }
+  },
+  "app_name": "Hafez Brokerage Company"
+}

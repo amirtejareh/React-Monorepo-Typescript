@@ -1,0 +1,15 @@
+{
+  "name": "@hafez/api",
+  "version": "1.0.0",
+  "description": "Hafez REST API",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup --config",
+    "test": "jest"
+  },
+  "author": "Amir Tejareh",
+  "license": "ISC",
+  "devDependencies": {
+    "openapi-typescript-codegen": "^0.23.0"
+  }
+}

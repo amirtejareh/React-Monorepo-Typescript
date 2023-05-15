@@ -1,0 +1,12 @@
+node_modules
+dist
+.idea
+
+.cache
+packages/remixapp/build
+packages/remixapp/public/build
+.env
+
+
+package-lock.json
+packages/*/package-lock.json

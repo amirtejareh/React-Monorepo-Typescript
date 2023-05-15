@@ -1,0 +1,18 @@
+{
+  "routes": {
+    "home": "خانه",
+
+    "categoty": {
+      "warehouse_management": {
+        "title": "مدیریت انبار",
+        "menu_title": "اطلاعات",
+        "submenu": {
+          "first": "صفحه اول",
+          "second": "صفحه دوم",
+          "third": "صفحه سوم"
+        }
+      }
+    }
+  },
+  "app_name": "شرکت کارگزاری حافظ"
+}
