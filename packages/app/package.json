@@ -1,12 +1,12 @@
 {
   "name": "@hafez/app",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@date-io/jalaali": "^2.14.0",
-    "@hafez/api": "1.0.0",
-    "@hafez/components": "1.0.0",
-    "@hafez/framework": "1.0.0",
+    "@hafez/api": "0.1.0",
+    "@hafez/components": "0.1.0",
+    "@hafez/framework": "0.1.0",
     "@mui/material": "^5.8.7",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -24,6 +24,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "setup": "npm i --registry http://nexus.do.dibaware.ir/repository/npms/",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
