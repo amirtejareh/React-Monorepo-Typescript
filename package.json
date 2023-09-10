@@ -5,7 +5,7 @@
     "setup": "npm i --registry http://nexus.do.dibaware.ir/repository/npms/",
     "start": "lerna exec --scope @hafez/app -- npm start",
     "clean_npmrc": "del .npmrc",
-    "bootstrap": "npx --registry http://nexus.do.dibaware.ir/repository/npms lerna@6.4.1 bootstrap && echo registry=https://nexus.do.dibaware.ir/repository/diba-npm >> .npmrc && echo //nexus.do.dibaware.ir/repository/:_auth=\"YS50ZWphcmU6cXdlcjEyMzQ=\" >> .npmrc",
+    "bootstrap": "echo. > .npmrc && npx --registry http://nexus.do.dibaware.ir/repository/npms lerna@6.4.1 bootstrap && echo registry=https://nexus.do.dibaware.ir/repository/diba-npm >> .npmrc && echo //nexus.do.dibaware.ir/repository/:_auth=\"YS50ZWphcmU6cXdlcjEyMzQ=\" >> .npmrc",
     "build": "lerna run build",
     "test": "npx lerna run test"
   },
